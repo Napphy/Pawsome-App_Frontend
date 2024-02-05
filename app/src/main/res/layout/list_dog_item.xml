@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/dogList_name"
+        android:text="Dog Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/dogList_name"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="15dp"
+        android:textSize="16sp"
+        android:id="@+id/dogList_age"
+        android:text="Dog's ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
